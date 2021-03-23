@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerFilter = styled.div`
   height: 1452px;
@@ -6,12 +6,10 @@ export const ContainerFilter = styled.div`
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
-  padding-top: 18px;
-  padding-left: 31px;
+  padding: 20px;
 `;
 
 export const ContainerPrice = styled.div`
-  height: 207px;
   width: 119px;
   margin-bottom: 23px;
 `;
@@ -22,7 +20,6 @@ export const TitlePrice = styled.p`
   font-size: 18px;
 `;
 
-
 export const SubtitlePrice = styled.p`
 display: inline-block;
 font-family: Montserrat;
@@ -31,7 +28,7 @@ font-size: 16px;
 color: #2C2C2C;
 `;
 
-export const CheckMark = styled.span`
+export const CheckMarkRadio = styled.span`
   position: absolute;
   top: 0;
   left: 0;
@@ -48,11 +45,10 @@ export const CheckMark = styled.span`
 
 export const Input = styled.input``;
 
-export const Container = styled.label`
+export const ContainerRadio = styled.label`
   display: inline;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 28px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -65,19 +61,95 @@ export const Container = styled.label`
     cursor: pointer;
   }
 
-  &:hover ${Input} ~ ${CheckMark} {
-    background-color: #979797;
-  }
-
-  & ${Input}:checked ~ ${CheckMark} {
+  & ${Input}:checked ~ ${CheckMarkRadio} {
     background-color: #969696;
   }
 
-  & ${Input}:checked ~ ${CheckMark}:after {
+  & ${Input}:checked ~ ${CheckMarkRadio}:after {
     display: block;
   }
 
-  & ${CheckMark}:after {
+  & ${CheckMarkRadio}:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+`;
+
+export const Line = styled.hr`
+  border: 1px solid #D6D6D6;
+`;
+
+export const ContainerValue = styled.div`
+  width: 100%;
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+`;
+
+export const ContainerTextValue = styled.div`
+`;
+
+export const NumberValue = styled.h1`
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+`;
+
+export const ContainerCategory = styled.div`
+display: flex;
+flex-direction: column;
+
+`;
+
+export const InputCheckmark = styled.input``;
+
+export const Checkmark = styled.span`
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ContainerCheckbox = styled.label`
+  display: inline;
+  position: relative;
+  cursor: pointer;
+  padding-left: 26px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  & ${InputCheckmark} {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+  }
+
+  &:hover ${InputCheckmark} ~ ${Checkmark} {
+    background-color: #ccc;
+  }
+
+  & ${InputCheckmark}:checked ~ ${Checkmark} {
+    background-color: #2196f3;
+  }
+
+  & ${InputCheckmark}:checked ~ ${Checkmark}:after {
+    display: block;
+  }
+
+  & ${Checkmark}:after {
     top: 9px;
     left: 9px;
     width: 8px;
