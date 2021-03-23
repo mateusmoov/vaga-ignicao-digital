@@ -158,3 +158,17 @@ export const ContainerCheckbox = styled.label`
     background: white;
   }
 `;
+
+export const ContainerRating = styled.div`
+`;
+
+export const ContainerStars = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const Rating = styled.h1`
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+`;

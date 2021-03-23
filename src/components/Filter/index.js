@@ -1,5 +1,9 @@
 import React from 'react';
 
+import FiveStars from '../../assets/5-Star.svg';
+import FourStars from '../../assets/4-Star.svg';
+import ThreeStars from '../../assets/3-Star.svg';
+
 import {
   ContainerFilter,
   ContainerPrice,
@@ -15,6 +19,9 @@ import {
   NumberValue,
   ContainerCategory,
   ContainerCheckbox,
+  ContainerRating,
+  ContainerStars,
+  Rating,
 } from './styles';
 
 const Filter = () => (
@@ -93,6 +100,25 @@ const Filter = () => (
       </ContainerCheckbox>
     </ContainerCategory>
     <Line />
+    <ContainerRating>
+      <TitlePrice>Avaliação</TitlePrice>
+
+      <ContainerStars>
+        <img src={FiveStars} alt="5 stars" />
+        <Rating>8500</Rating>
+      </ContainerStars>
+
+      <ContainerStars>
+        <img src={FourStars} alt="5 stars" />
+        <Rating>3250</Rating>
+      </ContainerStars>
+
+      <ContainerStars>
+        <img src={ThreeStars} alt="5 stars" />
+        <Rating>1120</Rating>
+      </ContainerStars>
+
+    </ContainerRating>
   </ContainerFilter>
 );
 
