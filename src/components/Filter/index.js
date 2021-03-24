@@ -22,6 +22,8 @@ import {
   ContainerRating,
   ContainerStars,
   Rating,
+  ContainerButton,
+  Button,
 } from './styles';
 
 const Filter = () => (
@@ -102,23 +104,23 @@ const Filter = () => (
     <Line />
     <ContainerRating>
       <TitlePrice>Avaliação</TitlePrice>
-
       <ContainerStars>
         <img src={FiveStars} alt="5 stars" />
         <Rating>8500</Rating>
       </ContainerStars>
-
       <ContainerStars>
         <img src={FourStars} alt="5 stars" />
         <Rating>3250</Rating>
       </ContainerStars>
-
       <ContainerStars>
         <img src={ThreeStars} alt="5 stars" />
         <Rating>1120</Rating>
       </ContainerStars>
-
     </ContainerRating>
+
+    <ContainerButton>
+      <Button>LIMPAR FILTRO</Button>
+    </ContainerButton>
   </ContainerFilter>
 );
 

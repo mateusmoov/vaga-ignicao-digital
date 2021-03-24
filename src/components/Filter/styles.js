@@ -121,8 +121,9 @@ export const Checkmark = styled.span`
   align-items: center;
 `;
 
-export const ContainerCheckbox = styled.label`
-  display: inline;
+export const ContainerCheckbox = styled.div`
+  display: inline-flex;
+  align-items: flex-start;
   position: relative;
   cursor: pointer;
   padding-left: 26px;
@@ -171,4 +172,21 @@ export const Rating = styled.h1`
   font-family: Montserrat;
   font-weight: 300;
   font-size: 14px;
+`;
+
+export const ContainerButton = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+`;
+
+export const Button = styled.button`
+  border: none;
+  font-family: Montserrat;
+  font-weight: 400;
+  background-color: #696969;
+  color: white;
+  padding: 17px 74px 18px 53px;
+  border-radius: 8px; 
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 `;
