@@ -1,10 +1,20 @@
-import ReactSlider from 'react-slider';
-import styled from 'styled-components';
+import ReactSlider from "react-slider";
+import styled from "styled-components";
+
+export const TitleFilter = styled.p`
+  font-family: Montserrat;
+  font-weight: 400px;
+  color: #2c2c2c;
+  font-size: 18px;
+  margin-bottom: 19px;
+`;
+
+export const FilterSection = styled.div``;
 
 export const ContainerFilter = styled.div`
   height: 1452px;
   width: 371px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   padding: 20px;
@@ -24,11 +34,11 @@ export const TitlePrice = styled.p`
 `;
 
 export const SubtitlePrice = styled.p`
-display: block;
-font-family: Montserrat;
-font-weight: 300;
-font-size: 16px;
-color: #2C2C2C;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2c2c2c;
 `;
 
 export const CheckMarkRadio = styled.span`
@@ -84,7 +94,7 @@ export const ContainerRadio = styled.label`
 `;
 
 export const Line = styled.hr`
-  border: 1px solid #D6D6D6;
+  border: 1px solid #d6d6d6;
 `;
 
 export const ContainerValue = styled.div`
@@ -94,8 +104,8 @@ export const ContainerValue = styled.div`
 `;
 
 export const ContainerTextValue = styled.div`
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const NumberValue = styled.h1`
@@ -105,11 +115,10 @@ export const NumberValue = styled.h1`
 `;
 
 export const ContainerCategory = styled.div`
-display: flex;
-flex-direction: column;
-margin-top: 33px;
-margin-bottom: 24px;
-
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  margin-bottom: 24px;
 `;
 
 export const InputCheckmark = styled.input``;
@@ -168,7 +177,7 @@ export const ContainerCheckbox = styled.label`
 `;
 
 export const ContainerRating = styled.div`
-margin-top: 33px;
+  margin-top: 33px;
 `;
 
 export const ContainerStars = styled.div`
@@ -196,13 +205,13 @@ export const Button = styled.button`
   background-color: #696969;
   color: white;
   padding: 17px 74px 18px 53px;
-  border-radius: 8px; 
+  border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 `;
 
 export const StyledSlider = styled(ReactSlider)`
-    width: 100%;
-    height: 25px;
+  width: 100%;
+  height: 25px;
 `;
 
 export const FilterThumb = styled.div`
