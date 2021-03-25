@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "./components/Card";
+import Navbar from "./components/Navbar";
 import { GlobalStyle } from "./reset";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Card />
+      <Navbar />
     </>
   );
 }
