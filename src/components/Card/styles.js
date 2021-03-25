@@ -13,6 +13,7 @@ export const TextContainer = styled.div`
   margin-top: 31px;
   margin-bottom: 64px;
   margin-left: 23px;
+  margin-right: 74px;
 `;
 
 export const CardTitle = styled.p`
@@ -52,4 +53,95 @@ export const CardDescription = styled.p`
 export const ImageContainer = styled.div`
   display: flex;
   align-items: center;
+`;
+
+export const Vr = styled.div`
+  border-left: 1px solid #dadada;
+  height: 100%;
+`;
+
+export const ContainerAction = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+`;
+
+export const ContainerRating = styled.div`
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #787878;
+  margin-bottom: 19px;
+  margin-left: 146px;
+`;
+
+export const Rating = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  img {
+    width: 12px;
+  }
+`;
+
+export const FontRating = styled.p`
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+`;
+
+export const FontPrice = styled.p`
+  font-weight: 400;
+  font-size: 18px;
+  color: #2c2c2c;
+  font-family: Montserrat;
+  margin-bottom: 39px;
+`;
+
+export const ContainerButtonLove = styled.div`
+  margin-bottom: 11px;
+`;
+
+export const ButtonLove = styled.button`
+  width: 186px;
+  height: 45px;
+  background: #ededed;
+  border-radius: 8px;
+  border: none;
+`;
+
+export const FontLove = styled.p`
+  display: inline;
+  font-weight: 600;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #2c2c2c;
+  font-family: Montserrat;
+`;
+
+export const ContainerButtonBuy = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const ButtonBuy = styled.button`
+  width: 185px;
+  height: 45px;
+  background: #686868;
+  border-radius: 8px;
+  border: none;
+`;
+
+export const FontBuy = styled.p`
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  font-family: Montserrat;
+  display: inline;
+  margin-left: 12px;
+  font-weight: 600;
 `;
