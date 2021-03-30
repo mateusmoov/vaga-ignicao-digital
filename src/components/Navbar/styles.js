@@ -19,6 +19,16 @@ export const ContainerDropdown = styled.div`
   display: flex;
   margin-left: 24px;
   margin-top: 34px;
+
+  select{
+    font-family: Montserrat;
+    font-size: 15px;
+    border: none;
+    background: #ECECEC;
+    border-radius: 4px;
+    height: 36px;
+    width: 236px;
+  }
 `;
 
 export const ContainerApps = styled.div`
