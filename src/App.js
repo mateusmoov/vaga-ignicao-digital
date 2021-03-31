@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import { GlobalStyle } from "./reset";
+import { GlobalStyle } from "reset";
+import VerticalMenu from "components/VerticalMenu";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Navbar />
+      <VerticalMenu />
     </>
   );
 }

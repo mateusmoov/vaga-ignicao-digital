@@ -13,7 +13,8 @@ import ImageEmail from "assets/navbar/mail.svg";
 import ImageChat from "assets/navbar/message-square.svg";
 import ImageTodo from "assets/navbar/check-square.svg";
 import ImageCalendar from "assets/navbar/calendar.svg";
-const Navbar = () => {
+
+const VerticalMenu = () => {
   return (
     <ContainerNavbar>
       <ContainerLogo>
@@ -53,4 +54,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default VerticalMenu;

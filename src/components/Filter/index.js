@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import FiveStars from "../../assets/5-Star.svg";
-import FourStars from "../../assets/4-Star.svg";
-import ThreeStars from "../../assets/3-Star.svg";
+import FiveStars from "assets/5-Star.svg";
+import FourStars from "assets/4-Star.svg";
+import ThreeStars from "assets/3-Star.svg";
 import {
   ContainerFilter,
   ContainerPrice,
@@ -28,7 +28,7 @@ import {
   StyledSlider,
   TitleFilter,
   FilterSection,
-} from "./styles";
+} from "styles";
 
 const Filter = () => {
   const [ThumbValue, setThumbValue] = useState(0);
