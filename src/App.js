@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import { GlobalStyle } from "./reset";
+import { GlobalStyle } from "reset";
+import BreadCrumb from "components/BreadCrumb";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Navbar />
+      <BreadCrumb />
     </>
   );
 }

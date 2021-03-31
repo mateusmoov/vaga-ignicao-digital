@@ -8,12 +8,13 @@ import {
   ContainerDropdown,
   ContainerAnchors,
 } from "./styles";
-import IgnicaoLogo from "../../assets/vertical-menu/logo.svg";
-import ImageEmail from "../../assets/vertical-menu/mail.svg";
-import ImageChat from "../../assets/vertical-menu/message-square.svg";
-import ImageTodo from "../../assets/vertical-menu/check-square.svg";
-import ImageCalendar from "../../assets/vertical-menu/calendar.svg";
-const Navbar = () => {
+import IgnicaoLogo from "assets/navbar/logo.svg";
+import ImageEmail from "assets/navbar/mail.svg";
+import ImageChat from "assets/navbar/message-square.svg";
+import ImageTodo from "assets/navbar/check-square.svg";
+import ImageCalendar from "assets/navbar/calendar.svg";
+
+const VerticalMenu = () => {
   return (
     <ContainerNavbar>
       <ContainerLogo>
@@ -52,5 +53,4 @@ const Navbar = () => {
     </ContainerNavbar>
   );
 };
-
-export default Navbar;
+export default VerticalMenu;

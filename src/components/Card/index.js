@@ -21,10 +21,10 @@ import {
   ButtonBuy,
   FontBuy,
 } from "./styles";
-import ImageCard from "../../assets/beats-headphones.svg";
-import ImageRating from "../../assets/star.svg";
-import ImageLove from "../../assets/heart.svg";
-import ImageBuy from "../../assets/shopping.svg";
+import ImageCard from "assets/beats-headphones.svg";
+import ImageRating from "assets/star.svg";
+import ImageLove from "assets/heart.svg";
+import ImageBuy from "assets/shopping.svg";
 
 const Card = () => {
   return (

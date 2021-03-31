@@ -1,16 +1,18 @@
 import React from "react";
-import * as S from './styles.js';
-
-import ImageCheck from '../../assets/navbar/check-square.svg'
-import ImageMessage from '../../assets/navbar/message-square.svg'
-import ImageMail from '../../assets/navbar/mail.svg'
-import ImageCalendar from '../../assets/navbar/calendar.svg'
-import ImageStar from '../../assets/navbar/star.svg'
-
-import ImageBell from '../../assets/navbar/bell.svg'
-import ImageSearch from '../../assets/navbar/search.svg'
-import ImageOval from '../../assets/navbar/Oval.svg'
-
+import {
+  ContainerNavbar,
+  ContainerLogo,
+  Logo,
+  ContainerApps,
+  TitleApps,
+  ContainerDropdown,
+  ContainerAnchors,
+} from "./styles";
+import IgnicaoLogo from "assets/navbar/logo.svg";
+import ImageEmail from "assets/navbar/mail.svg";
+import ImageChat from "assets/navbar/message-square.svg";
+import ImageTodo from "assets/navbar/check-square.svg";
+import ImageCalendar from "assets/navbar/calendar.svg";
 const Navbar = () => {
     return (
         <S.ContainerNavbar>
