@@ -53,5 +53,4 @@ const VerticalMenu = () => {
     </ContainerNavbar>
   );
 };
-
 export default VerticalMenu;

@@ -14,43 +14,32 @@ import ImageChat from "assets/navbar/message-square.svg";
 import ImageTodo from "assets/navbar/check-square.svg";
 import ImageCalendar from "assets/navbar/calendar.svg";
 const Navbar = () => {
-  return (
-    <ContainerNavbar>
-      <ContainerLogo>
-        <Logo>
-          <img src={IgnicaoLogo} alt="logo" />
-        </Logo>
-      </ContainerLogo>
-      <ContainerDropdown>
-        <form>
-          <select>
-            <option> Área do Cliente</option>
-          </select>
-        </form>
-      </ContainerDropdown>
-      <ContainerApps>
-        <TitleApps>Apps</TitleApps>
-        <ContainerAnchors>
-          <a href="/">
-            <img src={ImageEmail} alt="email" />
-            Email
-          </a>
-          <a href="/">
-            <img src={ImageChat} alt="chat" />
-            Conversar
-          </a>
-          <a href="/">
-            <img src={ImageTodo} alt="todo" />
-            Todo
-          </a>
-          <a href="/">
-            <img src={ImageCalendar} alt="calendario" />
-            Calendário
-          </a>
-        </ContainerAnchors>
-      </ContainerApps>
-    </ContainerNavbar>
-  );
-};
+    return (
+        <S.ContainerNavbar>
+            <S.IconsNavbar>
+                <S.IconsLeft>
+                    <img src={ImageCheck} alt="checkmark" />
+                    <img src={ImageMessage} alt="message" />
+                    <img src={ImageMail} alt="email" />
+                    <img src={ImageCalendar} alt="calendario" />
+                    <img src={ImageStar} alt="star" />
+                </S.IconsLeft>
+                <S.IconsRight>
+                    <img src={ImageBell} alt="sino" />
+                    <img src={ImageSearch} alt="pesquisar" />
+                    <S.Client>
+                        <S.ClientName>
+                            Maria Elza
+                        </S.ClientName>
+                        <S.ClientSubtitle>
+                            Cliente Vip
+                        </S.ClientSubtitle>
+                    </S.Client>
+                        <img src={ImageOval} alt="perfil" />
+                </S.IconsRight>
+            </S.IconsNavbar>
+        </S.ContainerNavbar>
+    )
+}
 
 export default Navbar;
