@@ -1,12 +1,12 @@
 import React from "react";
 import { GlobalStyle } from "reset";
-import VerticalMenu from "components/VerticalMenu";
+import BreadCrumb from "components/BreadCrumb";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <VerticalMenu />
+      <BreadCrumb />
     </>
   );
 }

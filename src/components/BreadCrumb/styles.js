@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
-export const ContainerDiretory = styled.div`
+export const ContainerBread = styled.div`
   width: 100%;
   height: 62px;
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-  border-radius: 8px;
 `;
 
 export const Location = styled.p`
@@ -14,6 +12,7 @@ export const Location = styled.p`
   font-size: 24px;
   font-family: Montserrat;
   margin-right: 43px;
+  margin-left: 32px;
 `;
 
 export const Vr = styled.div`
@@ -21,7 +20,18 @@ export const Vr = styled.div`
   height: 32px;
 `;
 
-export const Directory = styled.div``;
+export const ContainerDirectory = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
+
+export const Directory = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-left: 13px;
+`;
 
 export const DirectoryText = styled.p`
   font-family: Montserrat;
@@ -29,4 +39,6 @@ export const DirectoryText = styled.p`
   font-weight: 400;
 `;
 
-export const Settings = styled.div``;
+export const Settings = styled.div`
+  margin-right: 32px;
+`;
