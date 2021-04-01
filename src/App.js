@@ -1,12 +1,12 @@
 import React from "react";
 import { GlobalStyle } from "reset";
-import BreadCrumb from "components/BreadCrumb";
+import ListViewSearch from "components/ListViewSearch";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <BreadCrumb />
+      <ListViewSearch />
     </>
   );
 }
