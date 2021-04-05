@@ -20,11 +20,11 @@ export const ContainerDropdown = styled.div`
   margin-left: 24px;
   margin-top: 34px;
 
-  select{
+  select {
     font-family: Montserrat;
     font-size: 15px;
     border: none;
-    background: #ECECEC;
+    background: #ececec;
     border-radius: 4px;
     height: 36px;
     width: 236px;
@@ -32,6 +32,7 @@ export const ContainerDropdown = styled.div`
 `;
 
 export const ContainerApps = styled.div`
+  margin-top: 84px;
   display: flex;
   flex-direction: column;
   margin-left: 38px;
@@ -51,9 +52,9 @@ export const ContainerAnchors = styled.div`
   display: flex;
   flex-direction: column;
   color: #2c2c2c;
+  gap: 15px;
   a {
     text-decoration: none;
-    margin-bottom: 8px;
   }
   img {
     margin-right: 10px;

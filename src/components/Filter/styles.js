@@ -9,7 +9,10 @@ export const TitleFilter = styled.p`
   margin-bottom: 19px;
 `;
 
-export const FilterSection = styled.div``;
+export const FilterSection = styled.div`
+  margin-right: 27px;
+  margin-top: 113px;
+`;
 
 export const ContainerFilter = styled.div`
   height: 1452px;
@@ -17,7 +20,8 @@ export const ContainerFilter = styled.div`
   background: #ffffff;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
-  padding: 20px;
+  margin-left: 61px;
+  margin-top: 18px;
 `;
 
 export const ContainerPrice = styled.div`
@@ -30,7 +34,7 @@ export const TitlePrice = styled.p`
   font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 18px;
+  margin-bottom: 26px;
 `;
 
 export const SubtitlePrice = styled.p`

@@ -26,16 +26,14 @@ import {
   FilterThumb,
   FilterTrack,
   StyledSlider,
-  TitleFilter,
   FilterSection,
-} from "styles";
+} from "./styles";
 
 const Filter = () => {
   const [ThumbValue, setThumbValue] = useState(0);
   const [TrackValue, setTrackValue] = useState(0);
   return (
     <FilterSection>
-      <TitleFilter>Filtros</TitleFilter>
       <ContainerFilter>
         <ContainerPrice>
           <TitlePrice>Preços</TitlePrice>

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  width: 1170px;
   height: 250px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   display: flex;
+  margin-bottom: 27px;
 `;
 
 export const TextContainer = styled.div`

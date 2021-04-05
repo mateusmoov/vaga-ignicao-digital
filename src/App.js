@@ -1,12 +1,12 @@
 import React from "react";
 import { GlobalStyle } from "reset";
-import ListViewSearch from "components/ListViewSearch";
+import Home from "pages/Home";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <ListViewSearch />
+      <Home />
     </>
   );
 }
